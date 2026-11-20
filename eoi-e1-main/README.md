@@ -45,8 +45,6 @@ jupyter nbconvert --to notebook --execute --inplace \
 jupyter nbconvert --to html --output-dir reports --output task_01_report notebooks/task_01_crm_efficiency.ipynb
 ```
 
-PDF-версия отчёта также находится в `reports/task_01_report.pdf`.
-
 ## Методические замечания
 
 В notebook используется прозрачное определение ROI: совокупный чистый эффект за годы 1–3 после первоначальных затрат делится на номинальные затраты проекта. Также отдельно пояснено, почему срок окупаемости 1,38 года не следует из показанных денежных потоков.
